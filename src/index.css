@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  width: 85%;
+  margin: 40px auto;
+  padding: 20px;
+
+}
+
+/* nav-part */
+.nav-main {
+  background-color: #e91e63;
+  text-align: center;
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  
+}
+
+.nav-main h2 {
+  text-align: left;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.nav-main h2 span {
+  color: aqua;
+}
+
+.nav-main ul  {
+  display: flex;
+  list-style: none;
+  margin-left: 500px;
+  margin-bottom: 10px;
+
+
+}
+
+.nav-main ul a {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 10px;
+  
+}
+
+.nav-main ul li {
+  padding: 5px;
+  margin-left: 20px;
+  border-right: 1px solid #fff;
+  
+}
+
+.nav-main ul li :hover {
+  color: aqua;
+  
+}
+/* news-part */ 
+.news {
+  display: flex;
+}
+.select-area {
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.selection {
+  display: flex;
+  flex-direction: column;
+
+}
+
+select {
+  width: 100px;
+  text-align: center;
+  height: 20px;
+  background-color: #e91e63;
+  color: #fff;
+  
+}
+
+.article-cont {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.article-cont a {
+  text-decoration: none;
+  
+}
+
+.article-cont p{
+  text-align: left;
+  font-size: 16px;
+  color:#333;
+  scroll-behavior: smooth;
+}
+
+.article-cont img  {
+  width: 200px;
+  height: 200px;
+  border: 10px solid #e91e63;
+  border-radius: 5px;
+  
+}
+
+
+.author {
+  color: aliceblue;
+  margin-top: 20px;
+}
+.publish {
+  color: aliceblue;
+  text-align: right;
+
+}
+
+
+
+
+
+
+
+/* jokes-part */
+
+.jokes {
+  height: 100vh;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.jokes button {
+  height: 35px;
+  width: 120px;
+  background-color: #e91e63;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* phonr-part */
+
+@media (max-width : 991px) {
+  .nav-main {
+    background-color: #e91e63;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+  }
+
+  .nav-main ul  {
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 405px;
+  
+  
+  }
+
+
+}
